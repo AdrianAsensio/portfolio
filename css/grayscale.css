@@ -185,6 +185,13 @@
   padding: 2rem;
 }
 
+#fotin1 { 
+  display: block;
+  object-fit: cover;
+  height: 90vw;
+}
+
+
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
@@ -205,6 +212,12 @@
     border-color: #64a19d;
     border-width: .25rem;
     width: 30%;
+  }
+
+  #fotin1 { 
+    display: block;
+    object-fit: cover;
+    height: 400px;
   }
 }
 
@@ -303,3 +316,4 @@ a:focus, a:hover {
 footer {
   padding: 5rem 0;
 }
+
